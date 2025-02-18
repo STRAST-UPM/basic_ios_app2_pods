@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0FABCDC2D64AD8000F363E0 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FABCDB2D64AD8000F363E0 /* Charts.framework */; };
+		B0B6F43D2D65005300268F1A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B6F43C2D65005300268F1A /* RealmSwift.framework */; };
+		B0B6F43F2D65005300268F1A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B6F43E2D65005300268F1A /* RxSwift.framework */; };
 		B0FABCF12D64CBDD00F363E0 /* DGCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FABCF02D64CBDD00F363E0 /* DGCharts.framework */; };
 		B0FABCF32D64CBE100F363E0 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FABCF22D64CBE100F363E0 /* Lottie.framework */; };
-		B0FABCF52D64CBE800F363E0 /* Algorithms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FABCF42D64CBE800F363E0 /* Algorithms.framework */; };
 		FCD1F082E388A8AA62108B4C /* Pods_basic_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F25573ABF3C46C2503BCFA /* Pods_basic_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +37,9 @@
 		B08A1BC52D560F5900F8BBB8 /* basic_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basic_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08A1BD52D560F5E00F8BBB8 /* basic_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = basic_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08A1BDF2D560F5E00F8BBB8 /* basic_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = basic_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B6F43A2D65005300268F1A /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B6F43C2D65005300268F1A /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B6F43E2D65005300268F1A /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FABCDB2D64AD8000F363E0 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FABCF02D64CBDD00F363E0 /* DGCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DGCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FABCF22D64CBE100F363E0 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,10 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0FABCF52D64CBE800F363E0 /* Algorithms.framework in Frameworks */,
+				B0B6F43D2D65005300268F1A /* RealmSwift.framework in Frameworks */,
+				B0B6F43F2D65005300268F1A /* RxSwift.framework in Frameworks */,
 				B0FABCF32D64CBE100F363E0 /* Lottie.framework in Frameworks */,
 				B0FABCF12D64CBDD00F363E0 /* DGCharts.framework in Frameworks */,
-				B0FABCDC2D64AD8000F363E0 /* Charts.framework in Frameworks */,
 				FCD1F082E388A8AA62108B4C /* Pods_basic_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +133,9 @@
 		F4498BE0FD56E7DA451935EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0B6F43A2D65005300268F1A /* Realm.framework */,
+				B0B6F43C2D65005300268F1A /* RealmSwift.framework */,
+				B0B6F43E2D65005300268F1A /* RxSwift.framework */,
 				B0FABCF42D64CBE800F363E0 /* Algorithms.framework */,
 				B0FABCF22D64CBE100F363E0 /* Lottie.framework */,
 				B0FABCF02D64CBDD00F363E0 /* DGCharts.framework */,
@@ -506,7 +512,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ines.basicapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.app2.pods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -538,7 +544,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ines.basicapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.app2.pods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
