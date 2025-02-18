@@ -1,0 +1,95 @@
+PODS:
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - DGCharts (5.1.0):
+    - DGCharts/Core (= 5.1.0)
+  - DGCharts/Core (5.1.0)
+  - lottie-ios (4.5.1)
+  - OneSignal (5.2.9):
+    - OneSignal/OneSignalComplete (= 5.2.9)
+  - OneSignal/OneSignal (5.2.9):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalExtension
+    - OneSignal/OneSignalLiveActivities
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalOutcomes
+    - OneSignal/OneSignalUser
+  - OneSignal/OneSignalComplete (5.2.9):
+    - OneSignal/OneSignal
+    - OneSignal/OneSignalInAppMessages
+    - OneSignal/OneSignalLocation
+  - OneSignal/OneSignalCore (5.2.9)
+  - OneSignal/OneSignalExtension (5.2.9):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalOutcomes
+  - OneSignal/OneSignalInAppMessages (5.2.9):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalOutcomes
+    - OneSignal/OneSignalUser
+  - OneSignal/OneSignalLiveActivities (5.2.9):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalUser
+  - OneSignal/OneSignalLocation (5.2.9):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalUser
+  - OneSignal/OneSignalNotifications (5.2.9):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalExtension
+    - OneSignal/OneSignalOutcomes
+  - OneSignal/OneSignalOSCore (5.2.9):
+    - OneSignal/OneSignalCore
+  - OneSignal/OneSignalOutcomes (5.2.9):
+    - OneSignal/OneSignalCore
+  - OneSignal/OneSignalUser (5.2.9):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalOutcomes
+  - Realm (20.0.1):
+    - Realm/Headers (= 20.0.1)
+  - Realm/Headers (20.0.1)
+  - RealmSwift (20.0.1):
+    - Realm (= 20.0.1)
+  - RxSwift (6.8.0)
+  - SwiftAlgorithms (1.0.0)
+
+DEPENDENCIES:
+  - Charts
+  - DGCharts
+  - lottie-ios
+  - OneSignal
+  - RealmSwift
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - DGCharts
+    - lottie-ios
+    - OneSignal
+    - Realm
+    - RealmSwift
+    - RxSwift
+    - SwiftAlgorithms
+
+SPEC CHECKSUMS:
+  Charts: ce0768268078eee0336f122c3c4ca248e4e204c5
+  DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+  lottie-ios: 248b380fa1b97d18e792c37d90da7ab2aa0d6562
+  OneSignal: 84197f8fcaace4b4708760ed27b981bac19bc131
+  Realm: 9572204903ef28caeb3c03bb30c1147f354ee3e7
+  RealmSwift: d230b44017a55a1ba97de6a944da1fe3bedb92b5
+  RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+
+PODFILE CHECKSUM: 5566464f15c47eafe03517f3a9736bd53e992d11
+
+COCOAPODS: 1.16.2

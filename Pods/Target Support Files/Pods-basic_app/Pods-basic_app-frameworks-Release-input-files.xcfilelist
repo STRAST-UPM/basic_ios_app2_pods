@@ -1,0 +1,18 @@
+${PODS_ROOT}/Target Support Files/Pods-basic_app/Pods-basic_app-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/DGCharts/DGCharts.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftAlgorithms/Algorithms.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignal/OneSignalFramework.framework/OneSignalFramework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalCore/OneSignalCore.framework/OneSignalCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalExtension/OneSignalExtension.framework/OneSignalExtension
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalInAppMessages/OneSignalInAppMessages.framework/OneSignalInAppMessages
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalLiveActivities/OneSignalLiveActivities.framework/OneSignalLiveActivities
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalLocation/OneSignalLocation.framework/OneSignalLocation
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalNotifications/OneSignalNotifications.framework/OneSignalNotifications
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalOSCore/OneSignalOSCore.framework/OneSignalOSCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalOutcomes/OneSignalOutcomes.framework/OneSignalOutcomes
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalUser/OneSignalUser.framework/OneSignalUser
