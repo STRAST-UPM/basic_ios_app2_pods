@@ -10,3 +10,4 @@ target 'basic_app' do
   pod 'lottie-ios'
   pod 'OneSignal'
 end
+
